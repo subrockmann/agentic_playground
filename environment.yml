@@ -1,0 +1,22 @@
+name: agentbench
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - jupyterlab
+  - pydantic
+  - langchain
+  - langgraph
+  - txtai
+ 
+  - pip:
+      - python-dotenv
+      - pydantic-ai
+      - crewai
+      - wandb
+      - langsmith
+      - semantic_kernel
+      - autogen-agentchat
