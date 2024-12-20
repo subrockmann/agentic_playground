@@ -11,12 +11,17 @@ dependencies:
   - langchain
   - langgraph
   - txtai
+  - openai
+  - ollama
+  - wandb
  
   - pip:
       - python-dotenv
+      - transformers
       - pydantic-ai
       - crewai
       - wandb
       - langsmith
       - semantic_kernel
       - autogen-agentchat
+      - streamlit

@@ -18,6 +18,12 @@ To activate the environment run
 conda activate agentbench
 ```
 
+To update the anaconda environment run
+```
+conda env update --file environment.yml --prune
+```
+
+
 ## Resources for the different frameworks
 - AutoGen https://microsoft.github.io/autogen/0.2/docs/Getting-Started
 
